@@ -6,6 +6,6 @@ resources:
   - namespace.yaml
 namespace: nodejs
 images:
-  - name: aks-nodejs-argocd
-    newName: aks-nodejs-argocd
+  - name: nodejs-argocd
+    newName: nodejs-argocd
     newTag: v1

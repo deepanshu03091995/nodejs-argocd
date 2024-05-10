@@ -18,8 +18,8 @@ spec:
       nodeSelector:
         "beta.kubernetes.io/os": linux
       containers:
-        - name: aks-nodejs-argocd
-          image: aks-nodejs-argocd
+        - name: nodejs-argocd
+          image: nodejs-argocd
           ports:
             - name: http
               containerPort: 1337
